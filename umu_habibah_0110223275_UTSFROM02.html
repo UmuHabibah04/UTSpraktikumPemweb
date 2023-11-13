@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+</head>
+<style>
+    body.lable {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    form table {
+        margin-right: auto;
+        margin-left: auto;
+        margin-top: 20px;
+    }
+
+    td {
+        padding: 7px;
+        line-height: top;
+    }
+
+    label {
+        display: block;
+        text-align: end;
+        font-size: 15 px;
+    }
+
+
+    input {
+        height: 25px;
+    }
+
+    .btn-red {
+        background-color: #696767;
+    }
+
+    .btn-blue {
+        background-color: #696767;
+    }
+</style>
+<fieldset>
+    <legend style="font-family:cursive;">Booking Sercive</legend>
+
+    <body>
+        <header style="display: flex;">
+            <form action="#">
+                <table>
+                    <tr>
+                        <td><label for="jenis Kendaraan">Jenis Kendaraan</label></td>
+                        <td>
+                            <select>
+                                <option value="minibus">Minibus</option>
+                                <option value="minibus">Mobil</option>
+                                <option value="minibus">motor</option>
+                            </select>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="nama pemesan">Nama Pemesan :</label></td>
+                        <td><textarea name="nama pemesan" id="nama pemesan" cols="60" rows="2"></textarea></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="kategori Pinjaman">Kategori Pinjaman :</label></td>
+                        <td><input type="radio" name="kj">Pribadi
+                            <input type="radio" name="kj">Perusahaan/Organisasi
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="deskripsi kebutuhan">Deskripsi Keburuhan</label></td>
+                        <td><textarea name="deskripsi kebutuhan" id="deskripsi kebutuhan" cols="60" rows="3"></textarea>
+                        </td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="jam,tanggal service">Jam,tanggal Service :</label></td>
+                        <td><input type="datetime-local" name="" id=""></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="request montir">Request Montir</label></td>
+                        <td><input type="request montir" name="request montir" id="request montir"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="telepon/hp">Telepon/HP :</label></td>
+                        <td><input type="text" name="telepom/hp" id="telepon/hp"></td>
+                    </tr>
+
+                    <tr>
+                        <td><label for="email">Email</label></td>
+                        <td><input type="text" name="email" id="email"></td>
+                    </tr>
+
+                    <tr>
+                        <td></td>
+                        <td>
+                            <button class="btn btn-blue" type="submit">Sumbit</button>
+                            <button class="btn btn-red" type="reset">Riset</button>
+                        </td>
+                    </tr>
+            </form>
+            </table>
+            </div>
+    </body>
+
+</html>
